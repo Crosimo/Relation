@@ -1,0 +1,21 @@
+.navb {
+    background-color: black;
+    opacity: 30%;
+    padding-left: 0;
+    width: 15%;
+    height: 15rem;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lis {
+    list-style-type: none;
+}
+
+.lis > a {
+    text-decoration: none;
+    color: red;
+}
